@@ -1,0 +1,31 @@
+.header {
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    padding-left: 10%;
+    color: orange;
+}
+h2 {
+    margin-top: 10px;
+}
+.usernameContainer {
+    display: flex;
+    gap : 20px;
+}
+.usernameContainer p {
+    margin: 0px;
+    font-size: medium;
+}
+.sideNav {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 40px;
+    font-size: larger;
+    color: black;
+    min-height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
