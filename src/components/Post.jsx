@@ -52,7 +52,7 @@ export const Post = () => {
                     <p>
                       {post.upvotes > post.downvotes
                         ? post.upvotes
-                        : `- ${post.downvotes}`}
+                        : `-${post.downvotes}`}
                     </p>
                     <i onClick={()=>handleDownvote(post.postId)}>⬇️</i>
                   </div>

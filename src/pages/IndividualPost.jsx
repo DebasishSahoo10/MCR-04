@@ -32,14 +32,14 @@ export const IndividualPost = () => {
           justifyContent: "space-between",
           minWidth: "90vw",
         }}
+        
       >
         <SideNav />
         <div
           style={{
-            overflowX: "hidden",
             height: "90vh",
-            overflowY: "scroll",
-            position: "relative",
+            marginTop : "20px"
+        
           }}
         >
           <ul style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
@@ -64,7 +64,7 @@ export const IndividualPost = () => {
                         <p>
                           {post.upvotes > post.downvotes
                             ? post.upvotes
-                            : `- ${post.downvotes}`}
+                            : `-${post.downvotes}`}
                         </p>
                         <i onClick={() => handleDownvote(post.postId)}>⬇️</i>
                       </div>
