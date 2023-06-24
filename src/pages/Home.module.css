@@ -24,7 +24,7 @@ h2 {
     margin-left: 40px;
     font-size: larger;
     color: black;
-    min-height: 90vh;
+    max-height: 80vh;
     justify-content: space-between;
     align-items: center;
     text-align: left;
